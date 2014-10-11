@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>KeepAlived | Paradise </title>
+    <title>MarkDown Basic | Paradise </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="" />
     <meta name="author" content="Payne" />
@@ -68,7 +68,7 @@
 						        <i class="icon-folder-open icon-large"></i>Python
 					         </a>
                 </li>
-                <li >
+                <li class="active">
                   <a href="/category/others.html">
 						        <i class="icon-folder-open icon-large"></i>Others
 					         </a>
@@ -78,7 +78,7 @@
 						        <i class="icon-folder-open icon-large"></i>Linux Basic
 					         </a>
                 </li>
-                <li class="active">
+                <li >
                   <a href="/category/linux-advanced.html">
 						        <i class="icon-folder-open icon-large"></i>Linux Advanced
 					         </a>
@@ -106,14 +106,12 @@
     <div class="span2">
         <div class="well">
 <footer class="post-info">
-<abbr class="published" title="2014-09-28T13:20:00">
-    <i class="icon-calendar"></i>&nbsp;Sun 28 September 2014
+<abbr class="published" title="2014-10-11T12:20:00">
+    <i class="icon-calendar"></i>&nbsp;Sat 11 October 2014
 </abbr>
-<br/><a href="/author/payne.html"><i class="icon-user"></i>&nbsp;Payne</a>
+<br/><a href="/author/payneding.html"><i class="icon-user"></i>&nbsp;PayneDing</a>
 
 
-<br/>
-	&nbsp;&nbsp;<a href="/tag/linux-advanced.html" class="label"><i class="icon-tag"></i>&nbsp;linux Advanced</a>
 </footer><!-- /.post-info -->        </div>
     </div>
     <div class="span6">
@@ -123,14 +121,149 @@
             <h1>
                 <a href=""
                         rel="bookmark"
-                        title="Permalink to KeepAlived">
-                        KeepAlived
+                        title="Permalink to MarkDown Basic">
+                        MarkDown Basic
                 </a>
             </h1>
         </header>
         <div class="entry-content">
 
-        <p><code>This category is for advanced users</code></p>
+        <hr />
+<h2>标题设置</h2>
+<p>在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）</p>
+<p>代码：
+<code>#这是一级标题</code></p>
+<p>效果：</p>
+<h1>这是一级标题</h1>
+<p>代码：
+<code>##这是二级标题</code></p>
+<p>效果：</p>
+<h2>这是二级标题</h2>
+<p>代码：
+<code>###这是三级标题</code></p>
+<p>效果：</p>
+<h3>这是三级标题</h3>
+<hr />
+<h2>列表</h2>
+<p>HTML 列表分无序列表 (unordered list, ul) 和有序列表 (ordered list, ol) 两种。在 Markdown 中用（<code>星号、加号、减号</code>)开始一行表示无序列表，用(<code>数字</code>)开始一行表示有序列表。</p>
+<h4>无序列表</h4>
+<p>代码：</p>
+<p><code>- 第一行</code></p>
+<p><code>- 第二行</code></p>
+<p><code>- 第三行</code></p>
+<p>效果:</p>
+<ul>
+<li>
+<p>第一行</p>
+</li>
+<li>
+<p>第二行</p>
+</li>
+<li>
+<p>第三行</p>
+</li>
+</ul>
+<h4>有序列表</h4>
+<p>1.这是有序列表</p>
+<p>2.这是有序列表</p>
+<p>3.这是有序列表</p>
+<h3>嵌套列表</h3>
+<p>代码：</p>
+<p><code>- 外层嵌套列表</code></p>
+<p><code>+ 嵌套1</code></p>
+<p><code>+ 嵌套2</code></p>
+<p><code>+ 嵌套3</code></p>
+<p><code>- 外侧嵌套列表</code></p>
+<p>效果：</p>
+<ul>
+<li>
+<p>外层嵌套列表</p>
+</li>
+<li>
+<p>嵌套1</p>
+</li>
+<li>
+<p>嵌套2</p>
+</li>
+<li>
+<p>嵌套3</p>
+</li>
+<li>
+<p>外侧嵌套列表</p>
+</li>
+</ul>
+<hr />
+<h2>横线</h2>
+<p>三个或以上星号、减号或者下划线单独放在一行即可生成一条横线。</p>
+<p>代码：</p>
+<p><code>***</code></p>
+<p>效果：</p>
+<hr />
+<hr />
+<h2>粗体和斜体</h2>
+<p>用星号或下划线来实现。用两个 * 包含一段文本就是粗体的语法，用一个 * 包含一段文本就是斜体的语法</p>
+<p><code>*这是斜体语法*</code></p>
+<p><code>**这也粗体语法**</code></p>
+<p><em>这是斜体语法</em></p>
+<p><strong>这也粗体语法</strong></p>
+<hr />
+<h2>插入图片</h2>
+<p>插入图片的语法。</p>
+<p><code>![alt text](/path/to/img.jpg "Title")</code></p>
+<hr />
+<h2>插入连接</h2>
+<p>行内链接语法：</p>
+<p>代码：
+<code>[this is a link](http://www.baidu.com)</code></p>
+<p>效果：<a href="http://www.baidu.com">this is a link</a></p>
+<hr />
+<h2>代码</h2>
+<p>在一般的段落文字中，你可以使用反引号 ` 来标记代码区段。</p>
+<p>如果要建立一个已经格式化好的代码区块，只要每行都缩进 4 个空格。例如：</p>
+<p>python:</p>
+<div class="highlight"><pre><span class="n">dict1</span><span class="o">=</span><span class="p">{</span><span class="err">&#39;</span><span class="n">name</span><span class="err">&#39;</span><span class="o">:</span><span class="n">jack</span><span class="p">,</span><span class="err">&#39;</span><span class="n">age</span><span class="err">&#39;</span><span class="o">:</span><span class="mi">20</span><span class="p">,</span><span class="err">&#39;</span><span class="n">job</span><span class="sc">&#39;:&#39;</span><span class="n">IT</span><span class="err">&#39;</span><span class="p">}</span>
+<span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">value</span> <span class="n">in</span> <span class="n">dict1</span><span class="p">.</span><span class="n">iteritems</span><span class="p">()</span><span class="o">:</span>
+    <span class="n">print</span> <span class="n">key</span><span class="p">,</span><span class="n">value</span>
+</pre></div>
+
+
+<hr />
+<h2>区块引用</h2>
+<p><code>&gt;仅做测试</code></p>
+<p><code>&gt;&gt;ddddff</code></p>
+<p><code>&gt;&gt;&gt;dddddd</code></p>
+<p><code>&gt;故人西辞黄鹤楼</code></p>
+<p><code>&gt;烟花三月下扬州</code></p>
+<blockquote>
+<h3>仅做测试</h3>
+<blockquote>
+<p>ddddff</p>
+<blockquote>
+<p>dddddd</p>
+<blockquote>
+<p>daaa</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>故人西辞黄鹤楼</p>
+<p>烟花三月下扬州</p>
+</blockquote>
+<hr />
+<h2>反斜杠(转义符）</h2>
+<p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <em> 标签），你可以在星号的前面加上反斜杠：</p>
+<p><code>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</code></p>
+<p><code>\ 反斜线</code></p>
+<p><code>` 反引号</code></p>
+<p><code>* 星号</code></p>
+<p><code>_   底线</code></p>
+<p><code>{}  花括号</code></p>
+<p><code>[]  方括号</code></p>
+<p><code>()  括弧</code></p>
+<p><code>#   井字号</code></p>
+<p><code>+   加号</code></p>
+<p><code>-   减号</code></p>
+<p><code>.   英文句点</code></p>
+<p><code>!   惊叹号</code></p>
         </div><!-- /.entry-content -->
     </article>
 </section>
